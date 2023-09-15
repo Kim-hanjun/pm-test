@@ -1,9 +1,19 @@
 
 public class hello {
+	public static int sum(int n, int m) {
+		return n + m;
+	}
+	// starting from main() method
 	public static void main(String[] args) {
-		System.out.println("Hello, World! ");
-		System.out.print("Hello, World! ");
-		System.out.println(" Difference between println and print");
+		int i = 20;
+		int s;
+		char a;
+		
+		s = sum(i, 10);
+		a = '?';
+		System.out.println(a);
+		System.out.println("Hello");
+		System.out.println(s);
 	}
 
 }
