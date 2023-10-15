@@ -64,9 +64,12 @@ public class PhoneBook {
 				System.out.println(FindName + " not found");
 			
 		}
-		person_cnt_tmp.close();
-		NameAndNumber.close();
-		FindName_tmp.close();
+		// scanner가 for문 안에 들어가있어서 .close(); 를 써도 warning이 사라지지 않는다.
+		// 강의자료 예제에도 for문 안에 스캐너가 들어가있는 예제가 있는데 그 경우에 마지막에 close를 하지 않았기 때문에
+		// 여기서도 close를 하지 않겠다. 실행에는 문제가 없다.
+//		person_cnt_tmp.close();
+//		NameAndNumber.close();
+//		FindName_tmp.close();
 		
 	}
 }
