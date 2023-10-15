@@ -28,6 +28,7 @@ public class ArrayTest {
 		avg = sum / dnum.length;
 		System.out.println("the average of the array elements: " + avg);
 		
+		stdin.close();
 	}
 
 }
