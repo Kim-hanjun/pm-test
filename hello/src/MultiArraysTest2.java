@@ -23,9 +23,12 @@ public class MultiArraysTest2 {
 			}
 	
 		for(i = 0; i < twoD.length; i++)
-		{
-			for(int val : twoD[i])
-				System.out.print(val + " ");
+		{	
+			for(k=0;k<twoD[i].length;k++) {
+				System.out.print(twoD[i][k] + " ");
+			}
+//			for(int val : twoD[i])
+//				System.out.print(val + " ");
 			System.out.println();
 		}
 	}

@@ -24,20 +24,21 @@ class Oval2 extends Figure {
 
 class Polydraw {
 	public void pdraw(Figure f) {
+		System.out.println(f instanceof Figure);
 		f.draw();
 	}
 	
-	public void pdraw(Triangle2 t) {
-		t.draw();
-	}
-	
-	public void pdraw(Rectangle2 r) {
-		r.draw();
-	}
-	
-	public void pdraw(Oval2 o) {
-		o.draw();
-	}
+//	public void pdraw(Triangle2 t) {
+//		t.draw();
+//	}
+//	
+//	public void pdraw(Rectangle2 r) {
+//		r.draw();
+//	}
+//	
+//	public void pdraw(Oval2 o) {
+//		o.draw();
+//	}
 	
 }
 
@@ -46,7 +47,7 @@ public class AbstractTest2 {
 	public static void main(String[] args) {
 		Polydraw p = new Polydraw();
 		Figure fg1 = new Triangle2();
-		Figure fg2 = new Rectangle2();
+		Rectangle2 fg2 = new Rectangle2();
 		Figure fg3 = new Oval2();
 		p.pdraw(fg1);
 		p.pdraw(fg2);

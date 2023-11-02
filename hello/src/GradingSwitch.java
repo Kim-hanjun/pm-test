@@ -12,20 +12,25 @@ public class GradingSwitch {
 		case 10:
 		case 9:
 			grade = 'A';
-			break;
+			System.out.println("학점은 " + grade + "입니다.");
+//			break;
 		case 8:
 			grade = 'B';
-			break;
+			System.out.println("학점은 " + grade + "입니다.");
+//			break;
 		case 7:
 			grade = 'C';
-			break;
+			System.out.println("학점은 " + grade + "입니다.");
+//			break;
 		case 6:
 			grade = 'D';
-			break;
+			System.out.println("학점은 " + grade + "입니다.");
+//			break;
 		default:
-			grade = 'F';	
+			grade = 'F';
+			System.out.println("학점은 " + grade + "입니다.");
 		}
-		System.out.println("학점은 " + grade + "입니다.");
+//		System.out.println("학점은 " + grade + "입니다.");
 		scanner.close();
 	}
 

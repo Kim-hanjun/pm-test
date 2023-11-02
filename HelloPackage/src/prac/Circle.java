@@ -81,7 +81,7 @@ public class Circle {
 		Circle pizza3 = new Circle(15, "Hwaiian Pizza");
 		System.out.println(pizza3.toString());
 		
-		Circle pizzaCopy = new Circle(pizza);
+		Circle pizzaCopy = new Circle(pizza3);
 		System.out.println(pizzaCopy.toString());
 		
 		Circle[] c;

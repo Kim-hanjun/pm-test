@@ -1,5 +1,12 @@
 package prac;
 
+class circle123{
+	int r;
+	circle123(int r){
+		this.r = r;
+	}
+}
+
 public class MathEx {
 
 	public static void main(String[] args) {
@@ -21,6 +28,23 @@ public class MathEx {
 		}
 			
 		System.out.println();
+		
+		circle123 ob1 = new circle123(1);
+		circle123 ob2 = new circle123(2);
+		circle123 s;
+		s = ob2;
+		ob1 = ob2;
+		System.out.print(ob2.r);
+		
+//		String d = new String("Hello");
+//		String b = new String("Java");
+//		String c = new String("Java");
+		String b = "hello";
+		String c = "hello";
+		
+		System.out.print(b==c);
+		
+		
 		
 	}
 
